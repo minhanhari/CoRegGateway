@@ -1,4 +1,4 @@
-package com.minhanh.coreg;
+package com.minhanh.coreggateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

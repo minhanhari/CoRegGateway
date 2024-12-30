@@ -5,7 +5,7 @@ var width = svg.getBoundingClientRect().width,
 const graphUrl = "/graph" + window.location.search
 
 const stompClient = new StompJs.Client({
-    brokerURL: 'ws://localhost:8080/transfactor'
+    brokerURL: 'ws://localhost:8081/transfactor'
 });
 
 const data = await d3.json(graphUrl);
